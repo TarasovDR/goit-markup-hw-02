@@ -1,11 +1,19 @@
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #757575;
+  --accent-color: #2196f3;
+  --primary-bg-color: #ffffff;
+  --secondary-bg-color: #2f303a;
+}
+
 * {
   margin: 0;
   padding: 0;
 }
 
 body {
-  background-color: #ffffff;
-  color: #212121;
+  background-color: var(--primary-bg-color);
+  color: var(--primary-text-color);
 }
 
 .list {
@@ -14,12 +22,44 @@ body {
 
 .logo-web,
 .site-nav .link:hover,
-.site-nav .link:focus {
-  color: #2196f3;
+.site-nav .link:focus,
+.auth-nav a:hover,
+.auth-nav a:focus {
+  color: var(--accent-color);
 }
 
-/* вторычный цвет текста
-color: #757575;
-color: #ffffff;
-color: #2196F3;
-*/
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+
+.auth-nav a {
+  color: var(--secondary-text-color);
+}
+
+.hero,
+footer {
+  background-color: var(--secondary-bg-color);
+}
+
+.hero-title {
+  color: var(--primary-bg-color);
+}
+
+.btn {
+  background-color: var(--accent-color);
+  color: var(--primary-bg-color);
+}
+
+.btn.primary {
+  background-color: var(--accent-color);
+  color: var(--primary-bg-color);
+}
+
+.btn.secondary {
+  background-color: #f5f4fa;
+  color: var(--accent-color);
+}
+
+.team {
+  background-color: #f5f4fa;
+}
