@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ffffff;
+  color: #212121;
+}
+
+.list {
+  list-style: none;
+}
+
+.logo-web,
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #2196f3;
+}
+
+/* вторычный цвет текста
+color: #757575;
+color: #ffffff;
+color: #2196F3;
+*/
