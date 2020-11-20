@@ -4,6 +4,7 @@
   --accent-color: #2196f3;
   --primary-bg-color: #ffffff;
   --secondary-bg-color: #2f303a;
+  --third-bg-color: #f5f4fa;
 }
 
 /* * {
@@ -53,6 +54,11 @@ footer {
 }
 
 .btn {
+  background-color: var(--third-bg-color);
+}
+
+.btn:hover,
+.btn:focus {
   background-color: var(--accent-color);
   color: var(--primary-bg-color);
 }
@@ -62,13 +68,8 @@ footer {
   color: var(--primary-bg-color);
 }
 
-.btn.secondary {
-  background-color: #f5f4fa;
-  color: var(--accent-color);
-}
-
 .team {
-  background-color: #f5f4fa;
+  background-color: var(--third-bg-color);
 }
 
 .logo-footer,
