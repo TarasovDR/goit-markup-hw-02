@@ -39,7 +39,7 @@ a {
 }
 
 .auth-nav a,
-.subtitle,
+.project-subtitle,
 .profession {
   color: var(--secondary-text-color);
 }
