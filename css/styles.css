@@ -29,12 +29,8 @@ a {
 .site-nav .link:hover,
 .site-nav .link:focus,
 .auth-nav a:hover,
-.auth-nav a:focus {
-  color: var(--accent-color);
-}
-
-.site-nav .link.current,
-.auth-nav .link.current {
+.auth-nav a:focus,
+.current {
   color: var(--accent-color);
 }
 
@@ -49,30 +45,25 @@ footer {
   background-color: var(--secondary-bg-color);
 }
 
-.hero-title {
+.hero-title,
+.logo-footer,
+.auth-nav .address {
   color: var(--primary-bg-color);
 }
 
-.btn {
-  background-color: var(--third-bg-color);
-}
-
-.btn:hover,
-.btn:focus {
-  background-color: var(--accent-color);
-  color: var(--primary-bg-color);
-}
-
-.btn.primary {
-  background-color: var(--accent-color);
-  color: var(--primary-bg-color);
-}
-
+.btn,
 .team {
   background-color: var(--third-bg-color);
 }
 
-.logo-footer,
-.address {
+.btn:hover,
+.btn:focus,
+.btn.primary,
+.btn.current {
+  background-color: var(--accent-color);
   color: var(--primary-bg-color);
+}
+
+.teammate {
+  background-color: var(--primary-bg-color);
 }
