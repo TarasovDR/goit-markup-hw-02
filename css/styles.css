@@ -39,10 +39,10 @@ body {
   list-style: none;
 }
 
-a {
+/* a {
   text-decoration: none;
   color: var(--primary-text-color);
-}
+} */
 
 .logo-web,
 .site-nav .link:hover,
