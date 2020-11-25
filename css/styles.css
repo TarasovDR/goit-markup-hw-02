@@ -45,7 +45,8 @@ body {
   list-style: none;
 }
 
-a {
+a,
+.btn-filter {
   text-decoration: none;
   color: var(--primary-text-color);
 }
