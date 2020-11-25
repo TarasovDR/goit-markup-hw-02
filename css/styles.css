@@ -7,6 +7,12 @@
   --third-bg-color: #f5f4fa;
 }
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -104,7 +110,6 @@ footer {
 
 .btn:hover,
 .btn:focus,
-.btn.primary,
 .btn.current {
   background-color: var(--accent-color);
   color: var(--primary-bg-color);
